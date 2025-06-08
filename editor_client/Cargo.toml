@@ -1,0 +1,10 @@
+[package]
+name = "editor_client"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+editor_protocol = { path = "../editor_protocol" }
+ratatui = { version = "0.26.3", features = ["crossterm"] } # Veya en son sürüm
+crossterm = "0.27.0" # Veya en son sürüm
+# std::sync::mpsc zaten standart kütüphanede mevcut

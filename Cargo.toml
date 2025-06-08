@@ -1,0 +1,7 @@
+[workspace]
+members = [
+    "editor_protocol",
+    "editor_server",
+    "editor_client",
+]
+resolver = "2" # Tavsiye edilen

@@ -1,0 +1,10 @@
+[package]
+name = "editor_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+editor_protocol = { path = "../editor_protocol" }
+# İsteğe bağlı olarak loglama için:
+# log = "0.4"
+# env_logger = "0.9"
