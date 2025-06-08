@@ -36,8 +36,8 @@ The project is divided into three main crates:
 
 1.  **Clone the repository**:
     ```bash
-    git clone <your-repository-url>
-    cd <your-repository-name>
+    git clone <repository-url>
+    cd <repository-name>
     ```
 
 2.  **Start the server**:
